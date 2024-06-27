@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   try {
     const pp = imagen4;
     // let vn = './media/menu.mp3'
-    const img = './allmenu.png';
+    const img = './kattymenu.png';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
@@ -20,17 +20,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄
+ ╭━     💜 𝑲𝒂𝒕𝒕𝒚 𝑩𝒐𝒕 💜
  ┃➤
  ┃➤    𝗛ola, ${taguser}
  ┃➤
- ┃➤ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : 𝑺𝒉𝒂𝒅𝒐𝒘 ❄
- ┃➤ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com/shadow.vz/
- ┃➤ Nᴜᴍᴇʀᴏ wa.me/525541081250
- ┃➤ Fᴇᴄʜᴀ : ${date}
+ ┃➤ 𝐃𝐮𝐞𝐧̃𝐚 : Kᴀᴛᴛʏ Pʀɪɴᴛ
+ ┃➤ 𝐅𝐁 : Kᴀᴛᴛʏ Pʀɪɴᴛ
+ ┃➤ 𝐍𝐮𝐦𝐞𝐫𝐨 wa.me/5218184696973
+ ┃➤ 𝐅𝐞𝐜𝐡𝐚 : ${date}
  ╰━━━━━━━━━━━━━
  
- ╭━      ❄ 𝑨𝒖𝒅𝒊𝒐𝒔 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄ 
+ ╭━      💜 𝑨𝒖𝒅𝒊𝒐𝒔 𝑲𝒂𝒕𝒕𝒚 𝑩𝒐𝒕 💜 
  ┃➤ ${usedPrefix}Quien es tu sempai botsito 7w7
  ┃➤ ${usedPrefix}Te diagnostico con gay
  ┃➤ ${usedPrefix}No digas eso papu
@@ -73,7 +73,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}UwU
  ┃➤ ${usedPrefix}:c
  ┃➤ ${usedPrefix}a
- ╰━━━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━`.trim();
+ ╰━━━━━━━━━ 𝑲𝒂𝒕𝒕𝒚 𝑩𝒐𝒕 ━━━━`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
