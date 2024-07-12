@@ -45,10 +45,10 @@ global.igfg = '𝑲𝒂𝒕𝒕𝒚 𝑩𝒐𝒕💜';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./kattymenu.png');
-global.imagen2 = fs.readFileSync('./src/kattyava.png');
-global.imagen3 = fs.readFileSync('./src/kattyava.png');
+global.imagen2 = fs.readFileSync('./src/Kattynewav.png');
+global.imagen3 = fs.readFileSync('./src/Kattynewav.png');
 global.imagen4 = fs.readFileSync('./kattymenu.png');
-global.imagen5 = fs.readFileSync('./src/kattyava.png');
+global.imagen5 = fs.readFileSync('./src/Kattynewav.png');
 global.imagen6 = fs.readFileSync('./kattymenu.png');
 
 global.mods = [];
